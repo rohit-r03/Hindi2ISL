@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-neutral-200 font-sans antialiased;
+    background-color: theme('colors.rich-black.950');
+    background-image: radial-gradient(circle at 50% 0%, #1a1a1a 0%, #0a0a0a 100%);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Playfair Display', serif;
+    @apply tracking-tight;
+    color: theme('colors.gold.100');
+  }
+
+  ::selection {
+    @apply text-rich-black-950;
+    background-color: theme('colors.gold.400');
+  }
+}
+
+.home {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.home h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+
+}
+
+.home p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+
+}
+
+.home-gif {
+  display: flex;
+  flex: end;
+}
