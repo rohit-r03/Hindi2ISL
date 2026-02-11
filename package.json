@@ -1,8 +1,26 @@
 {
   "name": "bestproject",
   "version": "0.1.0",
-  "type": "module",
   "private": true,
+  "description": "",
+  "homepage": "https://github.com/rohit-r03/Hindi2ISL#readme",
+  "bugs": {
+    "url": "https://github.com/rohit-r03/Hindi2ISL/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohit-r03/Hindi2ISL.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "postcss.config.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
@@ -14,11 +32,12 @@
     "react-router-dom": "^7.13.0",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.4",
+    "autoprefixer": "^10.4.24",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19",
+    "vite": "^7.3.1"
   },
   "eslintConfig": {
     "extends": [
@@ -37,12 +56,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^5.1.4",
-    "autoprefixer": "^10.4.24",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.19",
-    "vite": "^7.3.1"
   }
 }

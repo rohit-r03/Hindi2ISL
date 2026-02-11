@@ -15,13 +15,13 @@ export default function Footer() {
             <p className="leading-relaxed font-light">
               Bridging communication gaps with AI-powered Indian Sign Language translation. Empowering accessibility for everyone, everywhere.
             </p>
-            <div className="flex gap-4">
+            {/* <div className="flex gap-4">
               {[FaGithub, FaLinkedin, FaTwitter].map((Icon, i) => (
                 <a key={i} href="#" className="p-3 bg-rich-black-900 rounded-sm hover:bg-gold-500 hover:text-rich-black-950 transition-all shadow-lg hover:shadow-glow group">
                   <Icon className="text-xl transition-transform group-hover:scale-110" />
                 </a>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* Links */}
@@ -45,15 +45,16 @@ export default function Footer() {
             <ul className="space-y-3 font-light">
               <li className="flex items-start gap-3">
                  <span className="text-gold-400 mt-1">●</span> 
-                 <span>New Delhi, India</span>
+                 <span>Noida, India</span>
               </li>
               <li className="flex items-start gap-3">
                  <span className="text-gold-400 mt-1">●</span>
-                 <a href="mailto:contact@hindiisl.com" className="hover:text-gold-400 transition-colors">contact@hindiisl.com</a>
+                 <a href="mailto:contactwithhindi2isl@gmail.com" className="hover:text-gold-400 transition-colors">contactwithhindi2isl@gmail.com</a>
               </li>
               <li className="flex items-start gap-3">
                  <span className="text-gold-400 mt-1">●</span>
-                 <span>+91 98765 43210</span>
+                 <span>+91 62060 58303
+                 </span>
               </li>
             </ul>
           </div>
